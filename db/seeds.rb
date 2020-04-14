@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Mushroom.create(genus: 'Laetiporus', family: 'Fomitopsidaceae', order: 'Polyporales', classis: 'Agaricomycetes', phylum: 'Basidiomycota', common_name: 'Chicken of the woods', description: '')

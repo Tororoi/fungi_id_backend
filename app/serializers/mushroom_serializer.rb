@@ -1,3 +1,3 @@
 class MushroomSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :species, :genus, :family, :order, :classis, :phylum, :common_name, :description
 end

@@ -30,6 +30,12 @@ ActiveRecord::Schema.define(version: 2020_04_13_202317) do
 
   create_table "observations", force: :cascade do |t|
     t.string "location"
+    t.string "image_one"
+    t.string "image_two"
+    t.string "image_three"
+    t.string "image_four"
+    t.string "image_five"
+    t.string "image_six"
     t.bigint "user_id", null: false
     t.bigint "mushroom_id", null: false
     t.datetime "created_at", precision: 6, null: false
