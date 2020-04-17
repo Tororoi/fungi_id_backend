@@ -9,6 +9,7 @@ class CreateMushrooms < ActiveRecord::Migration[6.0]
       t.string :phylum
       t.string :common_name
       t.string :description
+      t.string :keywords
 
       t.timestamps
     end

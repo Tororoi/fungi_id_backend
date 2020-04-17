@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_04_13_202317) do
     t.string "phylum"
     t.string "common_name"
     t.string "description"
+    t.string "keywords"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
