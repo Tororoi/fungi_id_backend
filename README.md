@@ -1,24 +1,10 @@
-# README
+# Polypore ID App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## An app for helping to identify polypore fungi of New York
 
-Things you may want to cover:
+This website is built with React. The backend is built with Rails, postgresql, and complete with JWT Auth and B-Crypt password protection.
 
-* Ruby version
+Link to the frontend repo [here](https://github.com/Tororoi/fungi_id_frontend).
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app is designed to help you identify polypore mushrooms by selecting a series of tags. In addition to the search functionality, users can submit an observation with location information and an image. Observations can be edited later to change the mushroom species if the user made a mistake.
